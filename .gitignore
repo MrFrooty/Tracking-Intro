@@ -1,0 +1,7 @@
+__pycache__/
+
+gb_model.pkl
+lr_model.pkl
+rc_model.pkl
+rf_model.pkl
+scaler.pkl
