@@ -39,7 +39,7 @@ with mp_holistic.Holistic(min_detection_confidence = 0.5, min_tracking_confidenc
         
         #read in facial data here 
         try:
-            class_name = "Sad"
+            class_name = "Happy"
             pose = results.pose_landmarks.landmark
             pose_row = list(np.array([[landmark.x, landmark.y, landmark.z, landmark.visibility] for landmark in pose]).flatten())
             
