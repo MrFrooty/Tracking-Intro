@@ -1,4 +1,7 @@
 __pycache__/
+yolov5/
+
+yolov5s.pt
 
 gb_model.pkl
 lr_model.pkl
