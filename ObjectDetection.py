@@ -54,7 +54,7 @@ class ObjectDetection:
             end_time = time.perf_counter()
             fps = 1 / np.round(end_time - start_time, 3)
             cv2.putText(frame, f'FPS: {int(fps)}', (20, 70), cv2.FONT_HERSHEY_COMPLEX, 1.5, (255, 255, 255))
-            cv2.imshow("img", frame)
+            cv2.imshow("Object Detection", frame)
             
             if cv2.waitKey(1) & 0xFF == ord('q'):
                 break
